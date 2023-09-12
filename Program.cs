@@ -55,9 +55,8 @@ namespace Exercícios___For
                     
                     for (int i = 1; i <= operacao; i++)
                     {
-                        posiod
-
-                            d 
+                       
+                          
 
 
 
