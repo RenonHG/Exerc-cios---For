@@ -1,0 +1,7 @@
+C:\Users\renon.hgusson\source\repos\Exercícios - For\Exercícios - For\bin\Debug\Exercícios - For.exe.config
+C:\Users\renon.hgusson\source\repos\Exercícios - For\Exercícios - For\bin\Debug\Exercícios - For.exe
+C:\Users\renon.hgusson\source\repos\Exercícios - For\Exercícios - For\bin\Debug\Exercícios - For.pdb
+C:\Users\renon.hgusson\source\repos\Exercícios - For\Exercícios - For\obj\Debug\Exercícios - For.csproj.AssemblyReference.cache
+C:\Users\renon.hgusson\source\repos\Exercícios - For\Exercícios - For\obj\Debug\Exercícios - For.csproj.CoreCompileInputs.cache
+C:\Users\renon.hgusson\source\repos\Exercícios - For\Exercícios - For\obj\Debug\Exercícios - For.exe
+C:\Users\renon.hgusson\source\repos\Exercícios - For\Exercícios - For\obj\Debug\Exercícios - For.pdb
