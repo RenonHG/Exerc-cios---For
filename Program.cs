@@ -79,10 +79,10 @@ namespace Exercícios___For
                         Console.ForegroundColor = ConsoleColor.Yellow;
 
                         Console.WriteLine(anterior + " + " + atual + " = " + fibonacci);
-                        //Console.WriteLine(fibonacci);
 
                         anterior = atual;
                         atual = fibonacci;
+                        
                     }
                     break;
 
@@ -92,16 +92,27 @@ namespace Exercícios___For
                     Console.WriteLine("██████╗ ██████╗ ██╗███╗   ███╗ ██████╗ ███████╗\r\n██╔══██╗██╔══██╗██║████╗ ████║██╔═══██╗██╔════╝\r\n██████╔╝██████╔╝██║██╔████╔██║██║   ██║███████╗\r\n██╔═══╝ ██╔══██╗██║██║╚██╔╝██║██║   ██║╚════██║\r\n██║     ██║  ██║██║██║ ╚═╝ ██║╚██████╔╝███████║\r\n╚═╝     ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝ ╚═════╝ ╚══════╝\r\n                                               ");
 
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    Console.WriteLine("Insira um valor inteiro inicial: ");
-                    int inicial = int.Parse(Console.ReadLine());
+                    //Console.WriteLine("Insira um valor inteiro inicial: ");
+                    //int inicial = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Insira um valor inteiro final: ");
-                    int final = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Insira um valor inteiro até o número desejado: ");
+                    int valor = int.Parse(Console.ReadLine());
 
-                    
-
-
-
+                    for (int contador = 2; contador < valor; contador++)
+                    {
+                        bool primo = true;
+                        for(int j = 2; j < contador; j++)
+                        {
+                            if(contador % j == 0)
+                            {
+                                primo = false;
+                            }
+                        }
+                        if (primo)
+                        {
+                            Console.WriteLine("O número: " + contador + " é PRIMO!");
+                        }
+                    }
 
                 break;
 
